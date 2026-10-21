@@ -1,0 +1,31 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body { margin: 0; background: #f6f1e7; color: #223c3a; font-family: Arial, sans-serif; font-size: 17px; line-height: 1.65; }
+h1, h2, h3 { font-family: Georgia, serif; line-height: 1.12; }
+h1 { font-size: 78px; letter-spacing: -4px; margin: 22px 0; }
+h2 { font-size: 44px; letter-spacing: -1.5px; margin: 12px 0 20px; }
+h3 { font-size: 27px; margin: 16px 0; }
+a { color: inherit; }
+.container { width: 1000px; margin: 0 auto; }
+.navigation { padding: 20px 0; border-bottom: 1px solid #ccc9bc; }
+.brand { font-family: Georgia, serif; font-weight: bold; font-size: 24px; text-decoration: none; }
+.brand span { color: #a84731; }
+.nav-note { float: right; font-size: 12px; letter-spacing: 2px; margin-top: 8px; }
+.section { padding: 70px 0; }
+.eyebrow { font-size: 11px; letter-spacing: 2px; font-weight: bold; text-transform: uppercase; }
+.intro { max-width: 600px; font-size: 19px; }
+.muted { color: #566b65; font-size: 14px; }
+.rule { border-top: 1px solid #ccc9bc; }
+.footer { padding: 30px 0; font-size: 13px; }
+.footer a { text-decoration: none; font-weight: bold; }
+.footer a:hover { color: #a84731; }
+.result-header { padding: 60px 0 20px; }
+.quest-list { padding-left: 0; list-style: none; }
+.quest-list > li { margin: 18px 0; }
+.meta { font-size: 12px; letter-spacing: 1px; color: #566b65; }
+.reward { color: #a84731; font-size: 14px; font-style: italic; }
+.notice { border-left: 4px solid #a84731; padding: 12px 24px; margin: 28px 0; background: #fffaf1; }
+@media (max-width: 1080px) { .container { width: 85%; } h1 { font-size: 64px; } }
+@media (max-width: 650px) { h1 { font-size: 45px; letter-spacing: -2px; } h2 { font-size: 34px; } .nav-note { display: none; } .section { padding: 45px 0; } .container { width: 88%; } }

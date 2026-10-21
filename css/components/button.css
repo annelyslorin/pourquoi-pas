@@ -1,0 +1,4 @@
+.button { display: inline-block; background: #a84731; color: #fffaf0; padding: 14px 24px; border: 1px solid #a84731; border-radius: 5px; text-decoration: none; font-weight: bold; margin: 12px 10px 8px 0; }
+.button:hover { background: #223c3a; border-color: #223c3a; }
+.button-light { color: #223c3a; background: transparent; border-color: #223c3a; }
+.button-light:hover { color: #fffaf0; }

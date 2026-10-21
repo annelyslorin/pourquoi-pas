@@ -1,0 +1,10 @@
+.cards { display: flex; flex-wrap: wrap; margin: 25px -10px 0; }
+.card { flex-basis: 350px; flex-grow: 1; margin: 10px; padding: 28px; background: #fffdf7; border: 1px solid #c6cbbd; border-radius: 8px; box-shadow: 0 5px 0 #e3dfd1; }
+.card-turquoise { background: #deeee5; }
+.card-yellow { background: #f7edba; }
+.card .icon { font-size: 34px; margin: 0; }
+.card p { margin: 14px 0; }
+.card-link { font-size: 14px; font-weight: bold; text-decoration: none; border-bottom: 1px solid #a84731; }
+.card-link:hover { color: #a84731; }
+.quest-card { padding: 26px 32px; background: #fffdf7; border: 1px solid #c6cbbd; border-radius: 8px; }
+.quest-card h2 { font-size: 29px; letter-spacing: -0.5px; margin: 12px 0; }
